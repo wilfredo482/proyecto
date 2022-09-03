@@ -1,14 +1,12 @@
-import Navbar from "./components/navbar/navbar";
-import Header from "./components/header/Header"
-import Body from "./components/Body/Body";
-import Footer from "./components/footer/Footer";
+
+import Registro from "./components/Pages/Registro/Registro";
+import Login from "./components/Pages/Login/Login";
+import Home from "./components/Pages/Home/Home";
 
 export default function App() {
   return (
     <>
-      <Header />
-      <Body />
-      <Footer/>
+    <Home/>
     </>
   )
 }
