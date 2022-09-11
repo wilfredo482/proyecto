@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+.body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.bienvenida {
+    display: flex;
+    justify-content: start;
+    align-content: flex-start;
+    height: 79vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../../public/assets/fondoBienvenida1.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+
+.conteinerslogan {
+    min-height: 100%;
+    min-width: 50%;
+    position: relative;
+}
+
+.slogan {
+    top: 180px;
+    left: 390px;
+    width: 350px;
+    font-size: 4rem;
+    position: absolute;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.InfoBienvenida {
+    top:75%;
+    color: white;
+    left: 400px;
+    width: 490px;
+    font-size: 1.3rem;
+    position: absolute;
+}
+
+.ButtonBienvenida {
+    padding: 15px 61.1px;
+    border: rgb(255, 255, 255) 2px solid;
+    background-color: #1c7866;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    top:88%;
+    left: 400px;
+    position: absolute;
+}
+
+.contenedorImageWelcome {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.contenedorImageWelcome img {
+    width: 60%;
+
+    /* Posicionamiento */
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+.HomeTable {
+    display: flex;
+    justify-content:flex-start;
+    align-content: flex-start;
+    height: 75vh;
+}
+
+.ContainerTable {
+    min-width: 55%;
+    min-height: 80%;
+    position: relative;
+}
+
+.Table {
+    top: 25px;
+    left: 40px;
+    position: absolute;
+}
+
+.infocontainer {
+    width: 45%;
+    height: 100%;
+    position: relative;
+}
+
+.info {
+    top:30%;
+    left: 20%;
+    width: 370px;
+    font-size: 3rem;
+    position: absolute;
+}
+
+.buttonTable {
+    display: block;
+    padding: 15px 86px;
+    border: none;
+    background-color: #1abc9c;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 528px;
+}
+
+.info ~ .buttonTable {
+    margin-left: 20%;
+}
+
+.HomeServices {
+    display: flex;
+    height: 50vh;
+    background-color: rgb(243, 243, 243);
+}
+
+.conteinerServicesLeft { 
+    left: 330px;
+    width: 33.3%;
+    height: 100%;
+    position: relative;
+}
+
+.conteinerServices {
+    left: 130px;
+    width: 33.3%;
+    height: 100%;
+    position: relative;
+}
+
+.conteinerServicesRight { 
+    right: 70px;
+    width: 33.3%;
+    height: 100%;
+    position: relative;
+}
+
+
+.conteinerImgServices {
+    width: 220px;
+    height: 180px;
+    position: relative;
+}
+
+.conteinerServices img {
+    margin-left: 90px;
+    width: 80%;
+    height: 100%;
+    position: absolute;
+}
+
+.conteinerServicesLeft img {
+    margin-left: 90px;
+    width: 90%;
+    height: 100%;
+    position: absolute;
+}
+
+.conteinerServicesRight img {
+    margin-left: 90px;
+    width: 90%;
+    height: 100%;
+    position: absolute;
+}
+
+.conteinerTitleServices {
+    width: 350px;
+    height: 40px;
+    position: relative;
+}
+
+.TitleServicesLeft {
+    left: 50px;
+    width: 350px;
+    font-size: 1.4rem;
+    position: absolute;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.TitleServices {
+    left: 115px;
+    width: 350px;
+    font-size: 1.4rem;
+    position: absolute;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.TitleServicesRight {
+    left: 40px;
+    width: 350px;
+    font-size: 1.4rem;
+    position: absolute;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.conteinerImgServices ~ .TitleServices {
+    margin-top: 10px;
+}
+
+.conteinerImgServices ~ .TitleServicesCenter {
+    margin-top: 10px;
+}
+
+.conteinerInfoServices {
+    width: 350px;
+    height: 150px;
+    position: relative;
+}
+
+.infoServices {
+    display: block;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0;
+    left: 20px;
+    width: 300px;
+    font-size: 1.1rem;
+    position: absolute;
+    text-align: center;
+    color: rgb(139, 139, 139);
+}
+
+.TitleServices ~ .infoServices {
+    margin-top: 50px;
+}
+
+.TitleServicesCenter ~ .infoServices {
+    margin-top: 50px;
+}
+
+.HomeAttention {
+    display: flex;
+    height: 30vh;
+    background-color: #58beaa;
+    flex-direction: column;
+}
+
+.conteinerAttentionTitle {
+    width: 100%;
+    height: 30%;
+    position: relative;
+}
+
+.AttentionTitle {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    position: absolute;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.conteinerButtonAttention {
+    width: 100%;
+    height: 70%;
+    position: relative;
+    
+}
+
+.ButtonAttention1 {
+    padding: 15px 61.1px;
+    border: rgb(255, 255, 255) 2px solid;
+    background-color: #1c7866;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    top:50%;
+    left: 49%;
+    transform: translate(-100%, -50%);
+    position: absolute;
+}
+
+.ButtonAttention2 {
+    padding: 15px 68px;
+    border: rgb(255, 255, 255) 2px solid;
+    background-color: #60beab;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    top:50%;
+    left: 51%;
+    transform: translate(0, -50%);
+    position: absolute;
+}
+
+.HomeFooter {
+    width: 100%;
+    background-color: #0a141d;
+}
+.HomeFooter .grupo1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0;
+}
+
+.HomeFooter .grupo1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HomeFooter .grupo1 .box figure img {
+    width: 250px;
+}
+
+.HomeFooter .grupo1 .box h2 {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.HomeFooter .grupo1 .box p {
+    color: #757575;
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.HomeFooter .grupo1 .box p:hover {
+    color: white;
+}
+
+.HomeFooter .grupo2 {
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
+
+.HomeFooter .grupo2 small {
+    font-size: 15px;
+}
+
+@media screen and (max-width:800px) {
+    .HomeFooter .grupo1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0;
+    }
+}
